@@ -1,0 +1,50 @@
+{
+  "name": "smeacceleratorwebapi",
+  "version": "1.0.0",
+  "description": "Web api for sme accelerator using express js\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haliaeetusvocifer/smeacceleratorwebapi.git"
+  },
+  "keywords": [
+    "sme",
+    "accelerator",
+    "nodejs",
+    "express",
+    "webapi",
+    "mongodb"
+  ],
+  "author": "oluwasegun Haziz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haliaeetusvocifer/smeacceleratorwebapi/issues"
+  },
+  "homepage": "https://github.com/haliaeetusvocifer/smeacceleratorwebapi#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-mongodb-session": "^2.0.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-oas-generator": "^1.0.6",
+    "express-session": "^1.16.1",
+    "express-validator": "^5.3.1",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.6.10",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "nodemailer": "^4.7.0",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "nodemon": "^1.18.4",
+    "sendgrid": "^5.2.3",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
