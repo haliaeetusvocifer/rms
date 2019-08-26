@@ -1,14 +1,14 @@
 {
-  "name": "smeacceleratorwebapi",
+  "name": "rms",
   "version": "1.0.0",
-  "description": "Web api for sme accelerator using express js\"",
+  "description": "Web api for rms using express js\"",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/haliaeetusvocifer/smeacceleratorwebapi.git"
+    "url": "git+https://github.com/haliaeetusvocifer/rms.git"
   },
   "keywords": [
     "sme",
@@ -21,15 +21,16 @@
   "author": "oluwasegun Haziz",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/haliaeetusvocifer/smeacceleratorwebapi/issues"
+    "url": "https://github.com/haliaeetusvocifer/rms/issues"
   },
-  "homepage": "https://github.com/haliaeetusvocifer/smeacceleratorwebapi#readme",
+  "homepage": "https://github.com/haliaeetusvocifer/rms#readme",
   "dependencies": {
     "bcrypt": "^3.0.2",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "connect-mongodb-session": "^2.0.6",
     "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
     "express": "^4.17.1",
     "express-oas-generator": "^1.0.6",
     "express-session": "^1.16.1",
