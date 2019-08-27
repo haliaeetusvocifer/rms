@@ -29,8 +29,14 @@ app.use((req, res, next) => {
 });
 
 // ROutes
+const adminuserRoutes = require("./api/routes/adminusers");
+const adminActivitiesRoutes = require("./api/routes/adminactivities");
+const studentRoutes = require("./api/routes/students");
 
 //app.use('/user', userRoutes);
+app.use("/adminuser", adminuserRoutes);
+app.use("/adminactivities", adminActivitiesRoutes);
+app.use("/students", studentRoutes);
 
 //Error handling
 app.use((req, res, next) => {
